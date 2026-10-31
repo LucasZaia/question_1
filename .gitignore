@@ -4,5 +4,6 @@ __pycache__/
 .venv/
 *.egg-info/
 .env
+docs/
 books.db
 

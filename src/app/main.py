@@ -15,6 +15,8 @@ app = FastAPI(
     title="Books API",
     description="A layered CRUD API for managing books.",
     version="1.0.0",
+    docs_url="/swagger",
+    redoc_url="/docs",
 )
 settings = get_settings()
 app.add_middleware(

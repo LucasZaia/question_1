@@ -6,7 +6,13 @@ Inicie a aplicação com:
 uv run uvicorn app.main:app --reload
 ```
 
-A API ficará disponível em `http://127.0.0.1:8000`. A documentação interativa pode ser acessada em `http://127.0.0.1:8000/docs`.
+A API ficará disponível em `http://127.0.0.1:8000`.
+
+Documentação:
+
+- ReDoc: `http://127.0.0.1:8000/docs`
+- Swagger UI: `http://127.0.0.1:8000/swagger`
+- OpenAPI JSON: `http://127.0.0.1:8000/openapi.json`
 
 ### Criar um livro
 
